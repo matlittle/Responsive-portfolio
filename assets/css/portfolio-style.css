@@ -1,0 +1,40 @@
+/*  PORTFOLIO PAGE RULES  */
+#portfolio-content > div:first-child {
+	padding-top: 20px;
+}
+
+#portfolio-content > div:last-child {
+	padding-bottom: 10px;
+}
+
+.portfolio-row {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56px;
+}
+
+.portfolio-row img {
+	display: block;
+	width: 274px;
+	height: 205px;
+}
+
+.portfolio-row > div:nth-child(1) {
+	position: relative;
+}
+
+.portfolio-row > div:nth-child(2) {
+	position: absolute;
+	right: 0;
+}
+
+.portfolio-labels {
+	position: absolute;
+	bottom: 9px;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 1.25em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}

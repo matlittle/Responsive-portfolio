@@ -1,0 +1,10 @@
+/*  ABOUT PAGE RULES  */
+#bio-img {
+	margin: 10px 25px 10px 0px;
+	height: 200px;
+	width: 200px;
+}
+
+#bio-text {
+	line-height: 2em;
+}
