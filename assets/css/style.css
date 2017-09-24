@@ -166,44 +166,6 @@ footer {
 
 
 
-@media screen and (max-width: 640px) {
-	
-	#content, #profile-links-wrapper  {
-		float: none;
-	}
-
-	.wrapper, #head-wrapper, #content {
-		width: 600px;
-	}
-
-	#profile-links-wrapper {
-		position: relative;
-		width: 600px;
-		margin-top: 30px;
-	}
-
-}
-
-
-@media screen and (max-width: 768px) {
-	
-	#content, #profile-links-wrapper  {
-		float: none;
-	}
-
-	.wrapper, #head-wrapper, #content {
-		width: 730px;
-	}
-
-	#profile-links-wrapper {
-		position: relative;
-		width: 730px;
-		margin-top: 30px;
-	}
-
-}
-
-
 @media screen and (max-width: 980px) {
 	.wrapper , #head-wrapper{
 		width: 720px;
@@ -212,12 +174,40 @@ footer {
 	#content {
 		width: 420px;
 	}
+}
 
-	#bio-img {
+
+@media screen and (max-width: 768px) {
+	#content, #profile-links-wrapper  {
 		float: none;
-		width: 100%;
 	}
 
+	.wrapper, #head-wrapper, #content {
+		width: 730px;
+	}
+
+	#profile-links-wrapper {
+		position: relative;
+		width: 730px;
+		margin-top: 30px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	#content, #profile-links-wrapper  {
+		float: none;
+	}
+
+	.wrapper, #head-wrapper, #content {
+		width: 600px;
+	}
+
+	#profile-links-wrapper {
+		position: relative;
+		width: 600px;
+		margin-top: 30px;
+	}
 }
 
 
