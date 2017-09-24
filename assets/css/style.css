@@ -49,7 +49,6 @@ body {
 #main-header {
 	height: 90px;
 	width: 100%;
-	min-width: 960px;
 	line-height: 90px;
 	margin-bottom: 38px;
 	border-bottom: 2px solid #cccccc;
@@ -97,15 +96,17 @@ h6 { font-size: 0.67em; }
 
 /*  MAIN CONTENT SECTION RULES  */
 .wrapper {
-	width: 960px;
 	position: relative;
 	flex: 1 0 auto;
+	width: 960px;
 }
 
 #content {
 	border: 1px solid #dddddd;
 	box-sizing: border-box;
 	padding: 30px;
+	width: 650px;
+	float: left;
 }
 
 #content-head {
@@ -122,6 +123,8 @@ h6 { font-size: 0.67em; }
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
+	width: 270px;
+	float: left;
 }
 
 #profile-links-head {
@@ -163,21 +166,32 @@ footer {
 
 
 
-@media screen and (min-width: 640px) {
-	
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 640px) {
 	
 	#content, #profile-links-wrapper  {
 		float: none;
 	}
 
-	#head-wrapper {
-		width: 730px;
+	.wrapper, #head-wrapper, #content {
+		width: 600px;
 	}
 
-	#content {
+	#profile-links-wrapper {
+		position: relative;
+		width: 600px;
+		margin-top: 30px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	#content, #profile-links-wrapper  {
+		float: none;
+	}
+
+	.wrapper, #head-wrapper, #content {
 		width: 730px;
 	}
 
@@ -189,25 +203,9 @@ footer {
 
 }
 
-@media screen and (min-width: 980px) {
+
+@media screen and (max-width: 980px) {
 	
-	#content, #profile-links-wrapper  {
-		float: left;
-	}
-
-	#head-wrapper {
-		width: 960px;
-	}
-
-	#content {
-		width: 650px;
-	}
-
-	#profile-links-wrapper {
-		position: absolute;
-		right: 0;
-		width: 270px;
-	}
 
 }
 
