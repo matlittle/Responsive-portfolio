@@ -106,7 +106,6 @@ h6 { font-size: 0.67em; }
 	box-sizing: border-box;
 	padding: 30px;
 	width: 650px;
-	float: left;
 }
 
 #content-head {
@@ -124,7 +123,6 @@ h6 { font-size: 0.67em; }
 	position: absolute;
 	right: 0;
 	width: 270px;
-	float: left;
 }
 
 #profile-links-head {
