@@ -38,3 +38,25 @@
 	font-size: 1.25em;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+
+@media screen and (max-width: 980px) {
+	.portfolio-row > div:nth-child(2) {
+		position: relative;
+		margin-top: 56px;
+	}
+
+	.portfolio-row img {
+		display: block;
+		width: 358px;
+		height: 268px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+}
