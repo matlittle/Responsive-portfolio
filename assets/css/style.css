@@ -205,7 +205,14 @@ footer {
 
 
 @media screen and (max-width: 980px) {
-	
+	#content {
+		width: 420px;
+	}
+
+	#bio-img {
+		float: none;
+		width: 100%;
+	}
 
 }
 
