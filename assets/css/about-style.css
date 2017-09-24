@@ -8,3 +8,12 @@
 #bio-text {
 	line-height: 2em;
 }
+
+
+@media screen and (max-width: 980px) {
+
+	#bio-img {
+		height: 360px;
+		width: 360px;
+	}
+}

@@ -205,6 +205,10 @@ footer {
 
 
 @media screen and (max-width: 980px) {
+	.wrapper , #head-wrapper{
+		width: 720px;
+	}
+
 	#content {
 		width: 420px;
 	}
