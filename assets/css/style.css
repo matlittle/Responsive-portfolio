@@ -189,6 +189,10 @@ footer {
 		margin-top: 30px;
 	}
 
+	footer {
+		min-width: 730px;
+	}
+
 	#footer-wrapper {
 		width: 730px;
 		margin: auto;
@@ -197,12 +201,33 @@ footer {
 
 
 @media screen and (max-width: 640px) {
-	#content, #profile-links-wrapper  {
+	#main-header {
+		height: 156px;
+		min-width: 600px;
+	}
+
+	#head-wrapper, #title {
+		width: 100%;
+	}
+
+	#header-links {
+		float: none;
+		position: relative;
+		line-height: 66px;
+		text-align: center;
+	}
+
+	#header-links a:nth-child(2) {
+		margin: 0px 60px;
+		padding: 0px 60px;
+	}
+
+	#title, #content, #profile-links-wrapper  {
 		float: none;
 	}
 
-	.wrapper, #head-wrapper, #content {
-		width: 600px;
+	.wrapper, #content {
+		width:  600px;
 	}
 
 	#profile-links-wrapper {
@@ -211,10 +236,14 @@ footer {
 		margin-top: 30px;
 	}
 
+	footer {
+		min-width: 600px;
+	}
+
 	#footer-wrapper {
 		width: 600px;
 		margin: auto;
-	}
+	}}
 }
 
 
